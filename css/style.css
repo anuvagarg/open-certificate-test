@@ -69,14 +69,16 @@ a {
 /* dark mode css */
 @media (prefers-color-scheme: dark) {
   body {
-    background: var(--dark-color);
+    background: #0083b4;
     color: #fff;
   }
   input,
   input:active {
-    background: var(--dark-color);
-    border-color: #fff;
-    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 360px;
+    height: 15px; 
   }
 
   /* for styling the autocomplete style */
