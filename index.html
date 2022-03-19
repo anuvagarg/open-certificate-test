@@ -96,6 +96,12 @@
     <main>
         <input required type="text" name="Name" autocomplete="name" placeholder="Name (as given in the email)" id="name" minlength="3"
             maxlength="30">
+        <select onchange="this.form.submit()" id="option" name="option">
+            <option>Select Certificate</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
         <Button id="submitBtn">Get Certificate</Button>
 
 

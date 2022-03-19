@@ -80,7 +80,17 @@ a {
     width: 360px;
     height: 15px; 
   }
-
+  select{
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 360px;
+    height: 15px; 
+    text-decoration-color: #212121;
+  }
+  option{
+    color: #212121;
+  }
   /* for styling the autocomplete style */
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
